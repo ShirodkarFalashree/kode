@@ -17,7 +17,7 @@ function Editor() {
   const handleRun = async () => {
     setOutput("Running...");
     try {
-      const res = await axios.post("http://localhost:5000/run", {
+      const res = await axios.post("https://kode-7lce.onrender.com/run", {
         code,
         language_id: language,
       });
