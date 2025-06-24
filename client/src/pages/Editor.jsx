@@ -38,7 +38,7 @@ function Editor() {
   const lineNumbers = Array.from({ length: lineCount }, (_, i) => i + 1).join('\n');
 
   return (
-    <div className="flex flex-col h-screen bg-gray-900 text-gray-200">
+    <div className="flex flex-col h-full bg-gray-900 text-gray-200">
       {/* Top Bar */}
       <div className="bg-gray-800 px-4 py-2 flex items-center justify-between border-b border-gray-700">
         <div className="flex items-center space-x-2">
