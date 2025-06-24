@@ -3,8 +3,8 @@ import React, { useState } from "react";
 import axios from "axios";
 
 const languageOptions = [
-  { id: 63, name: "JavaScript" },
   { id: 71, name: "Python" },
+  { id: 63, name: "JavaScript" },
   { id: 54, name: "C++" },
   { id: 50, name: "C" },
 ];

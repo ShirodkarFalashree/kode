@@ -6,8 +6,8 @@ function TutorialPage() {
       <div className="max-w-4xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">Python Tutorial</h1>
-          <p className="text-xl text-gray-600">Master python in just one tutorial video</p>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">Developed By <span className='text-[#FFD400]'>FAVMedia</span></h1>
+          <p className="text-xl text-gray-600">Falashree Shirodkar & Avishkar Kakade</p>
         </div>
 
         {/* Video Section */}
